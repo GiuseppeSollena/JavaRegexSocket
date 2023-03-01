@@ -13,7 +13,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class validatorServer {
-    public static final int PORT = 1050;
+    public static final int PORT = 1000;
 
     public validatorServer() {
     }
@@ -64,7 +64,7 @@ public class validatorServer {
     }
 
     public static void main(String[] args) throws IOException {
-        ServerSocket serverSocket = new ServerSocket(1050);
+        ServerSocket serverSocket = new ServerSocket(1000);
         System.out.println("EchoServer: connessione iniziata ");
         System.out.println("info Server Socket: " + String.valueOf(serverSocket));
         Socket clientSocket = null;

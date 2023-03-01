@@ -29,7 +29,7 @@ public class inputClient {
         PrintWriter out = null;
 
         try {
-            socket = new Socket(addr, 1050);
+            socket = new Socket(addr, 1000);
             System.out.println("EchoClient: started");
             System.out.println("Client Socket: " + String.valueOf(socket));
             InputStreamReader isr = new InputStreamReader(socket.getInputStream());
